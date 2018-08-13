@@ -1,0 +1,81 @@
+{
+  "_from": "telegraf-i18n",
+  "_id": "telegraf-i18n@6.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-zzm6mjeARmZhTQGEumahwctZ/sxENr40GQx9Y4nJekDKDyw6Hga3d0b0HsWOTkH2FpBLStC97JoUKOQ2Sc/f9Q==",
+  "_location": "/telegraf-i18n",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "telegraf-i18n",
+    "name": "telegraf-i18n",
+    "escapedName": "telegraf-i18n",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/telegraf-i18n/-/telegraf-i18n-6.1.1.tgz",
+  "_shasum": "d57122be0d407f7f2974cb902acd7a55957e64c6",
+  "_spec": "telegraf-i18n",
+  "_where": "D:\\work\\telegramGame",
+  "author": {
+    "name": "Vitaly Domnikov",
+    "email": "dotcypress@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/telegraf/telegraf-i18n/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "compile-template": "^0.3.1",
+    "debug": "^3.0.0",
+    "js-yaml": "^3.6.1"
+  },
+  "deprecated": false,
+  "description": "Telegraf i18n engine",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "eslint": "^4.4.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-ava": "^4.2.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "telegraf": "^3.7.1"
+  },
+  "engines": {
+    "node": ">=6.2.1"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/telegraf/telegraf-i18n#readme",
+  "keywords": [
+    "telegram bot",
+    "telegraf",
+    "bot framework",
+    "i18n",
+    "internationalization",
+    "middleware"
+  ],
+  "license": "MIT",
+  "main": "lib/i18n.js",
+  "name": "telegraf-i18n",
+  "peerDependencies": {
+    "telegraf": "^3.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/telegraf/telegraf-i18n.git"
+  },
+  "scripts": {
+    "test": "eslint . && ava"
+  },
+  "version": "6.1.1"
+}
